@@ -9,7 +9,7 @@
 
 include(FindPackageHandleStandardArgs)
 
-get_filename_component( Vimba_ROOT "/opt/Vimba_5_1" ABSOLUTE )
+set(Vimba_ROOT "/opt/Vimba_5_1")
 
 # Include dir
 find_path(Vimba_INCLUDE_DIR 
